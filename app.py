@@ -17,7 +17,7 @@ st.header(" Hey there!")
 
 chat_model = ChatGoogleGenerativeAI(
     model="gemini-1.5-flash",  # or "gemini-1.5-pro"
-    google_api_key="AIzaSyCZ891oZE6NikETOruri49t82OFUp4PoVU"
+    google_api_key=gemini_api_key
 )
 
 
